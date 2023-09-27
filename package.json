@@ -4,6 +4,7 @@
   "description": "Projeto realizado com orientação pela Ebac",
   "main": "index.js",
   "scripts": {
+    "dev": "gulp watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "gulp ",
     "watch": "watch"
@@ -20,6 +21,7 @@
   "homepage": "https://github.com/Phillipe-Hugo/cloney_disneyebac#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^5.1.0",
     "sass": "^1.66.1"
   }
